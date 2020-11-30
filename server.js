@@ -19,11 +19,11 @@ app.use(bodyparser.urlencoded({extended:true}));
 rutas.iniciar(__dirname);
 rutas.principal(app);
 
-app.set('port', process.env.port || 3001);
+//app.set('port', process.env.port || 3000);
 
 //const host=process.env.host || '0.0.0.0';
 //const port = process.env.port || 3000;
 
 //Iniciar el servidor
-app.listen(3001);
-console.log("Escuchando en el puerto 3001");
+app.listen(3000);
+console.log("Escuchando en el puerto 3000");
