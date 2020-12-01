@@ -25,5 +25,5 @@ rutas.principal(app);
 //const port = process.env.port || 3000;
 
 //Iniciar el servidor
-app.listen(3000);
-console.log("Escuchando en el puerto 3000");
+app.listen(process.env.PORT || 5000)
+console.log("Escuchando en el puerto 5000");
